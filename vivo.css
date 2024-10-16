@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+label.logo img {
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  z-index: 9999;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 10px;
+  padding: 10px 35px;
+  padding-top: 20px;
+}
+
+nav ul li a:hover {
+  color: lightcoral;
+  background: black;
+}
+
+#searchbar {
+  display: flex;
+  width: 20%;
+  height: 0%;
+  margin-top: 3px;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid whitesmoke;
+  border-radius: 9px;
+  margin-left: 10px;
+}
+
+#searchbar input {
+  margin-left: 7px;
+}
+
+#searchbar button.btn-sm {
+  margin-left: 0px;
+}
+
+#info {
+  display: flex;
+  margin-left: 4%;
+}
+
+#info li {
+  list-style: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul li ul.dropdownn li {
+  display: block;
+  padding-top: 100%;
+}
+
+ul li ul.dropdownn {
+  width: 100%;
+  position: absolute;
+  z-index: 8888;
+  display: none;
+}
+
+ul li:hover ul.dropdownn {
+  display: block;
+}
+
+.dropdownn span a:hover {
+  background: black;
+  color: tomato;
+  opacity: 0.8;
+}
+
+#checkbtn {
+  float: right;
+  font-size: 30px;
+  margin-right: 10px;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#navbk {
+  background: url(imgpp/header1.jfif) 10%;
+  background-size: cover;
+}
+
+.vivobk {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.vivobk h1 {
+  margin-left: 37%;
+}
+
+.vivobk input {
+  margin-left: 37%;
+  margin-bottom: 2%;
+  width: 20%;
+}
+
+.vivobk button.btn-sm {
+  margin-left: 0px;
+}
+
+body {
+  background-image: url();
+}
+
+.vivomob {
+  width: 100%;
+  background-color: azure;
+}
+
+img {
+  width: 10%;
+  margin-left: 12%;
+}
+
+.mob {
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  display: flex;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+
+.mob:hover {
+  transform: scale(1.2);
+  z-index: 20;
+}
+
+.mobdetails {
+  margin-left: 10%;
+}
+
+footer {
+  background-color: #111;
+}
+
+.footer {
+  width: 100%;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  color: black;
+  opacity: 0.9;
+}
+
+.socialicons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+#footernav {
+  margin: 30px 0;
+}
+
+#footernav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#footernav ul li a {
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+#footernav ul li a:hover {
+  opacity: 1;
+  transition: 0.5s;
+  color: lightcoral;
+}
+
+.footerbottom {
+  background-color: #000;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.footerbottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+@media (max-width: 769px) {
+  #check:checked ~ ul {
+    left: 0;
+    transition: left 1s;
+  }
+  ul {
+    display: none;
+  }
+  #checkbtn {
+    display: flex;
+  }
+  #checkbtn {
+    display: block;
+  }
+  nav ul {
+    width: 100%;
+    height: 100vh;
+    background: rgba(29, 32, 30, 0.632);
+    position: fixed;
+    top: 55px;
+    left: 100%;
+    transition: left 2s;
+  }
+  .socialicons {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  nav ul {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+  #searchbar {
+    flex-direction: column;
+  }
+  #bk1st img {
+    width: 100%;
+  }
+  .LOGOBK {
+    flex-direction: column;
+  }
+  .LOGOBK img {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+  }
+  #bk1st img {
+    display: flex;
+  }
+  .footernav ul {
+    flex-direction: column;
+  }
+  .footernav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}/*# sourceMappingURL=vivo.css.map */

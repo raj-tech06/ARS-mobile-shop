@@ -1,0 +1,470 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+
+    body{
+        overflow-x: hidden;
+     
+
+    }
+
+    // =====================================================================================================================================
+// THIS IS A NAVBAR START
+// THIS IS A LOGO START
+label.logo img{
+    overflow-x: hidden;
+        width: 40px;  
+        justify-content: center;
+        align-items: center;
+            border: 2px solid whitesmoke;
+            border-radius: 50px;
+            margin-left: 3px;
+            margin-top: 3px;
+}
+// THIS IS A LOGO END 
+// =====================================================================================================================================
+nav ul{
+    width: 100%;
+    // height: 80%;
+    display:flex;
+    z-index: 9999;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;  
+    }
+    nav ul li{
+    
+    display: inline-block;
+    
+    }
+    nav ul li a{
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px 35px;
+    padding-top: 20px;
+    }
+    nav ul li a:hover{
+    //   display: grid;
+    color: lightcoral;
+    background: black;
+    }
+    
+    #searchbar{
+        display: flex;
+        width: 20%;
+        height: 0%;
+        margin-top: 3px;
+        text-align: center;
+        padding: 5px;
+         // margin-left: 0%;
+        font-size: 17px;
+        border: 2px solid whitesmoke;
+        border-radius: 9px;
+        margin-left: 10px;
+    
+    }
+    
+    #searchbar input{
+        margin-left: 7px;
+    }
+    #searchbar button.btn-sm{
+        margin-left: 0px;
+    }
+    #info{
+            display: flex;
+            margin-left: 4%;
+          
+        }
+        #info li{
+           
+             list-style: none;
+             text-decoration: none;
+           
+        }
+    
+    // CART DROPDOWN START 
+        ul{
+         
+            list-style: none;
+            // background: #22438c;
+        
+        }
+        ul li{
+            display: inline-block;
+            position: relative;
+        }
+        ul li a{
+            display: block;
+            padding: 20px 25px;
+            // color: red;
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+        }
+        ul li ul.dropdownn li{
+            // width: -10PX;
+            display: block;
+            padding-top: 100%;
+        
+        }
+        ul li ul.dropdownn{
+            width: 100%;
+            // background: whitesmoke;
+            position: absolute;
+            z-index: 8888;
+            display: none;
+        }
+      
+        ul li:hover ul.dropdownn{
+            // display: grid;
+            display: block;
+         
+        }
+        .dropdownn span a:hover{
+            background:black;
+            color: tomato;
+           opacity: 0.8;
+        }
+    // CART DROPDOWN END 
+    
+    // NAVCHECK BOX START 
+        #checkbtn{
+            float: right;
+            font-size: 30px;
+            margin-right: 10px;
+            display: none;
+            
+        }
+        #check{
+            display: none;
+        }
+    //  NAVCHECK BOX END        
+        #navbk{
+            background:url(imgpp/header1.jfif)10%;
+            background-size: cover;
+        }
+    
+
+        // THIS IS A NAVBAR END
+
+
+        
+       
+ // =====================================================================================================================================
+
+// HERE ANY MOBILE ITEMS 
+
+h1{ overflow-x: hidden;
+   margin-left: 33%;
+    // background-color: whitesmoke;
+}
+// HERE ANY MOBILE ITEMS END
+
+// 2st div  
+#bk1st img{ overflow-x: hidden;
+    width: 100%;
+    // background-image: red;
+}
+
+#bk1st img:read-only{
+    opacity: -1;
+}
+#bk1st img:hover{
+    opacity: 1;
+    transition: 2s;
+   
+}
+
+// 2nd div end 
+// =====================================================================================================================================
+
+// LOGIN FORM 
+.form{ overflow-x: hidden;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%  rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 250px;
+    left: 490px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h2{ overflow-x: hidden;
+    color: aliceblue;
+    margin-left: 30px;
+}
+p{
+    color: aliceblue;
+}
+.link{
+    margin-left: 15px;
+}
+button{
+    margin-left: 70px;
+}
+.suhbtn{
+    margin-left: 45px;
+}
+
+.liw{
+    margin-left: 55px;
+}
+
+.inp input{
+    margin: 5px;
+}
+}
+
+// LOGIN FORM END 
+// =====================================================================================================================================
+
+
+// SLIDER START 
+.slide{ overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    // position: absolute;
+}
+.grid{ overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,100%);
+    overflow: scroll;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+
+    // scrollbar-width: none;
+}
+// SLIDER END 
+
+
+
+// =====================================================================================================================================
+
+// NEW MOBILE SEARCH BAR START
+
+#bk3rd
+{ overflow-x: hidden;
+    width: 100%;
+    font-size: 20px;
+    // height: 20%;
+    margin-left: -4%;
+    // justify-content: center;
+    }
+
+
+    .bk3rd1{
+        background-color: #000;
+    }
+.bk3rd1 input{
+        margin-left: 37%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        width: 20%;
+     
+} 
+#bk3rd button.btn-sm{
+    margin-left: 0px;
+}
+
+// NEW MOBILE SEARCH BAR END 
+
+
+// =====================================================================================================================================
+
+// THIS IS MOBILE COMPANY LOGO START
+.LOGOBK{ overflow-x: hidden;
+    width: 100%;
+    height: 50%;
+    // transition: 0.6s;
+    background-color:silver;
+   
+}
+.LOGOBK span{
+    color: silver;
+    text-decoration: none;
+}
+.LOGOBK img{
+    width: 10%;
+  background-color: white;
+    margin-left: 4%;
+  
+}
+.LOGOBK a{
+    text-decoration: none;
+}
+.LOGOBK:hover{
+    // background: rgba(219, 13, 13, 0.925);
+    background: royalblue;
+    background-color: #000;
+    transition: 2s;
+    transform: scale(0.8);
+}
+.LOGOBK span:hover{
+    background:white;
+}
+
+
+// THIS IS MOBILE COMPANY LOGO END 
+
+
+// ==========================================================================================================================================
+
+// THIS IS FOOTER START
+footer{ overflow-x: hidden;
+    background-color: #111;
+}
+.footer{
+    width: 100%;
+    // padding: 20px 0px 0px;
+}
+.socialicons{ overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    // font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color:#111;
+    transition: 0.5s;
+}
+#footernav{
+    margin: 30px 0;
+}
+#footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+#footernav ul li a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+
+#footernav ul li a:hover{
+    opacity: 1;
+    transition: 0.5s;
+    color: lightcoral;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+.footerbottom p{
+ color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:5px;
+
+}
+
+// THIS IS FOOTER END 
+// =====================================================================================================================================
+
+
+
+
+@media (max-width: 769px){
+  
+    #check:checked ~ ul{
+        // right: -10%;
+        left: 0;
+        transition: left 1s;
+        // position: fixed;
+    }
+    ul{
+        display: none;
+    }
+    #checkbtn{
+      
+        display: flex;
+    }
+    #checkbtn{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        // right: -100%;
+        background: rgba(29, 32, 30, 0.632);
+        position: fixed;
+    top: 55px;
+    left: 100%;
+    transition: left 2s;
+     
+    }
+   
+    .socialicons{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+
+    }
+        nav ul{
+            width: 100%;
+            text-align: center;
+            flex-direction: column;
+        }
+        #searchbar{
+            flex-direction: column;
+        }
+     
+    
+        #bk1st img{
+            width: 100%;
+    
+        }
+        .LOGOBK{
+            // justify-content: left;
+            // flex-direction: column-reverse;
+            flex-direction: column;
+    
+        } 
+          .LOGOBK img{
+            flex-direction: row;
+            justify-content: center;
+            display: flex;
+        }
+        #bk1st img{
+            display: flex;
+    
+        }
+        .footernav ul{
+
+            flex-direction: column;
+        }
+        .footernav ul li{
+    
+            width: 100%;
+            text-align: center;
+            margin: 10px;
+    
+        }
+
+
+
+    }
+    
